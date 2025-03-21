@@ -1,3 +1,4 @@
+/* General styles for the body */
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
@@ -5,15 +6,16 @@ body, h1, h2, p, ul, li {
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ADD8E6;
     margin: 20px;
     line-height: 1.6;
     font-size: 18px;
     color: #333;
 }
 
+/* Header styles */
 header {
-    background-color: #333;
+    background-color: #3D5BFF;
     color: white;
     padding: 40px 0;
     text-align: center;
@@ -35,6 +37,7 @@ header nav ul li a {
     font-size: 20px;
 }
 
+/* Headings styles */
 h1 {
     font-family: 'Merriweather', serif;
     font-size: 48px;
@@ -48,8 +51,9 @@ h2 {
     margin-bottom: 15px;
 }
 
+/* Main content area */
 main {
-    background-color: white;
+    background-color: #E0FFFF;
     padding: 30px;
     margin-top: 20px;
     border-radius: 10px;
@@ -61,15 +65,17 @@ p {
     margin-bottom: 20px;
 }
 
+/* Footer styles */
 footer {
     text-align: center;
     padding: 15px;
-    background-color: #333;
+    background-color: #3D5BFF;
     color: white;
     font-size: 18px;
     margin-top: 30px;
 }
 
+/* List and image styles */
 ul {
     list-style-type: disc;
     padding-left: 25px;
@@ -81,6 +87,7 @@ img {
     margin: 15px 0;
 }
 
+/* Class styles */
 .profile-img {
     width: 260px;
     height: 260px;
@@ -88,6 +95,14 @@ img {
     object-fit: cover;
     margin: 20px auto;
     display: block;
+}
+
+.notes {
+    flex-basis: 300px;
+    background-color: #F0FFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .social-links {
@@ -109,5 +124,3 @@ img {
     object-fit: cover;
     margin: 20px 0;
 }
-
-
